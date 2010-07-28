@@ -11,3 +11,7 @@ There is a make file, and no external dependencies.
   * Call `make clean; make`
   * Hopefully this will create the grecode executable.
   * copy or symlink it into a directory that is in your path, probably as superuser.
+
+== Windows ==
+
+  * A windows executeable can be created by installing mingw compiler suite, with g++ and make. Then call make in the same directory where the makefile is.
